@@ -49,3 +49,7 @@ cd Grafos2-Labirinto
 ```
 node main.js
 ```
+
+## Video
+
+[Video de apresentação: https://youtu.be/g4uHuhdoWHw](https://youtu.be/g4uHuhdoWHw)

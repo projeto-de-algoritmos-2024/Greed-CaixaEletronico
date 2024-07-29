@@ -52,8 +52,9 @@ function main() {
 
     readline.question('\x1b[1;m\nDigite valor a ser sacado: \x1b[0;m', (input) => {
         let valor = txtToInt(input);
+        const regex = /^[\d.,]+$/;
 
-        if (valor < 1) {
+        if (valor < 1 || !regex.test(input)) {
             console.clear();
             console.log(`\x1b[1;31mO valor ${input} é uma entrada invalida, tente novamente.\x1b[0;m\n`);
             readline.close();
