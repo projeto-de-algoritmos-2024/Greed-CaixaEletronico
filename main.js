@@ -55,7 +55,7 @@ function main() {
 
         if (valor < 1) {
             console.clear();
-            console.log("\x1b[1;31mEntrada invalida, tente novamente.\x1b[0;m\n");
+            console.log(`\x1b[1;31mO valor ${input} é uma entrada invalida, tente novamente.\x1b[0;m\n`);
             readline.close();
             main();
         } else {
