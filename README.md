@@ -1,21 +1,7 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!**
+# Caixa Eletrônico
 
-Temas:
-- Grafos1
-- Grafos2
-- PD
-- D&C
-- Greed
-- Final
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
-
-(Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 20<br>
+**Conteúdo da Disciplina**: Algorítmos Ambiciosos<br>
 
 ## Alunos
 | Matrícula  | Aluno                    |
@@ -50,13 +36,16 @@ Para rodar o projeto, é necessário que você tenha o node instalado na sua má
 Para usar o caixa eletrônico, siga os passos abaixo:
 
 1. Clone o respositório:
-   git clone https://github.com/projeto-de-algoritmos-2024/Grafos2-Labirinto
+```
+git clone https://github.com/projeto-de-algoritmos-2024/Grafos2-Labirinto
+```
 
-2. Navegue até o diretório do projeto:
-   cd Grafos2-Labirinto
+3. Navegue até o diretório do projeto:
+```
+cd Grafos2-Labirinto
+```
 
-3. Execute o projeto:
-   node main.js
-
-## Outros
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+4. Execute o projeto:
+```
+node main.js
+```
